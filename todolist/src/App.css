@@ -1,0 +1,76 @@
+body {
+  background: #eee;
+  padding: 0 16px;
+  background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
+  background-size: 20px 15px;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 30px;
+  margin-top: 30px;
+  background-image:"./assets/bak.jpg";
+
+}
+
+
+.create_form input {
+  width: 300px;
+  padding: 10px;
+  border-bottom: 2px solid;
+  outline: none;
+  border-radius: 4px;
+  margin-right: 10px;
+  box-sizing: border-box;
+  box-shadow: 0 1px 2px rgb(138, 137, 137);
+}
+
+.create_form button {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.create_form button:hover {
+    background-color: #0056b3;
+}
+
+.task{
+  display: flex;
+  align-items: center;
+  width: 345px;
+  justify-content: space-between;
+  background-color: white;
+  color: black;
+  height: 35px;
+  padding: 2px 5px 2px 5px;
+  margin-top: 10px;
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+.checkbox{
+  display: flex;
+  align-items: center;
+}
+
+.line_through{
+  text-decoration: line-through;
+}
+
+.checkbox .icon{
+  margin-right: 5px;
+  font-size: 15px;
+}
+
+.task div span{
+  margin: 0px 5px 0px 4px;
+}
+.task div .icon{
+  cursor: pointer;
+}
